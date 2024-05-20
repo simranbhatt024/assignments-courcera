@@ -1,4 +1,4 @@
-(function () {
+(function (s) {
     
     var helloSpeaker = {};
   
@@ -13,5 +13,5 @@
     
     window.helloSpeaker = helloSpeaker;
   
-  })();
+  })(s);
   
